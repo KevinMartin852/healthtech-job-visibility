@@ -1,0 +1,12 @@
+{
+  "name": "healthtech-job-visibility",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node --experimental-strip-types src/appointment_health.ts",
+    "test": "node --experimental-strip-types --test src/appointment_health.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": { "zod": "^3.23.8" },
+  "devDependencies": { "typescript": "^5.6.3", "@types/node": "^22.0.0" }
+}
